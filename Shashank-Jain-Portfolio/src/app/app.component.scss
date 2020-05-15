@@ -1,55 +1,17 @@
-#navbarNav {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.navbar {
+  background-color: transparent !important;
 }
 
-.navbar-nav {
-  color: transparent;
-}
-
-@media screen and (max-width: 600px) {
-  #navbarNav {
-    float: none;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-
-#navcontact {
-  color: #00000080;
-}
-
-.customList {
-  width: 33.333%;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 0.5rem;
-  padding-left: 1.5rem;
-}
-
-@media only screen and (max-width:475px) {
-  .navbar {
-    padding: 0.5rem 2rem;
-  }
-
-  .navbar-nav {
-    flex-flow: column nowrap;
-  }
-
-}
-
-.jumbotron {
-  background-image: url(/src/assets/images/DSC_1083.jpg);
+.bgimg {
+  height: 600px;
+  background-image: url("../assets/images/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg");
   background-attachment: fixed;
-  background-position: center bottom;
-  background-size: cover;
-  position: relative;
-  width: 100%;
-  height: 725px;
+  background-position: center top;
+  background-size: 100% 100%;
+  height: 200px;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f20d0d;
 }
